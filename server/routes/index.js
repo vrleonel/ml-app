@@ -6,7 +6,6 @@ router.get('/', async (req, res) => {
   // console.log('GET', res, res);
   const { q } = req.query;
   const products = await service.search(q);
-  console.log('SEARCH >>>', {q}, {products}, {service});
   res.json(products);
 });
 
