@@ -8,7 +8,9 @@ const linkStyle = {
 const Header = () => (
   <div>
     <Link href="/">
-      <a className={css.words} style={linkStyle}>Home</a>
+      <a className={css.words} style={linkStyle}>
+        Home
+      </a>
     </Link>
     <Link href="/about">
       <a style={linkStyle}>About</a>

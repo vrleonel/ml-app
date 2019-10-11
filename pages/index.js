@@ -2,14 +2,6 @@ import Link from 'next/link';
 import Layout from '../components/Layout';
 import fetch from 'isomorphic-unfetch';
 
-const PostLink = props => (
-  <li>
-    <Link href="/items/[:id]" as={`/items/${props.id}`}>
-      <a>{props.id}</a>
-    </Link>
-  </li>
-);
-
 const Index = props => (
   <Layout>
     <h1>Batman TV Shows</h1>
