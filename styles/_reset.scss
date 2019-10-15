@@ -1,0 +1,33 @@
+/*  Based on http://meyerweb.com/eric/tools/css/reset/ 
+    v2.0 | 20110126
+    License: none (public domain)
+*/
+
+html, body, div, span,
+h1, h2, h3, p, a, em, img, 
+center, ol, ul, li, form, label,
+article, figure, figcaption, 
+footer, header, menu, nav, section {
+	margin: 0;
+	padding: 0;
+	border: 0;
+    box-sizing: border-box;
+	font-size: 100%;
+    vertical-align: baseline;
+    text-decoration: none;
+    list-style: none;
+    z-index: 0;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, figcaption, figure, 
+footer, header, menu, nav, section {
+	display: block;
+}
+
+html {
+    background: #F5F5F5;
+}
+body {
+    line-height: 1;
+    font-family: Helvetica;
+}

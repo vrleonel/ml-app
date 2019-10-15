@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import SeachBox from '../components/SearchBox';
 import css from '../styles/main.scss';
 
 const linkStyle = {
@@ -7,6 +8,7 @@ const linkStyle = {
 
 const Header = () => (
   <div>
+    <SeachBox />
     <Link href="/">
       <a className={css.words} style={linkStyle}>
         Home

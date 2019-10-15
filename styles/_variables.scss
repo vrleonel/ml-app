@@ -6,11 +6,27 @@ $gray-dark: #333333;
 $gray: #666666;
 $gray-light: #999999;
 $gray-lighter: #EEEEEE;
-$button-primary: #3483FA;
+$primary: #3483FA;
 
+$bg-color: #FFFFFF;
 /* Fonts */
 
 $font-base: 16px; // 1rem; 
+$font-25: 0.75rem; // 12px
+$font-50: 0.88rem; // 14px
+$font-100: 1rem; // 16px
+$font-100: 1.13rem; // 18px
+$font-200: 1.5rem; // 24px
+$font-300: 1.75rem; //36px
+$font-400: 2.88rem; 
 
-$font-50: 0.875rem;
-$font-100: 1rem;
+// Spacing
+$space-normal: 1rem;
+$space-double: 2rem;
+
+// Image size
+$image-size-large: 680px;
+$image-size-normal: 180px;
+$image-border-radius: 4px;
+
+// 
