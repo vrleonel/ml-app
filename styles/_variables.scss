@@ -29,4 +29,29 @@ $image-size-large: 680px;
 $image-size-normal: 180px;
 $image-border-radius: 4px;
 
-// 
+// Grid
+$grid: 12;
+$grid-1: calc(100%/$grid);
+$grid-2: calc(100%/$grid*2);
+$grid-3: calc(100%/$grid*3);
+$grid-4: calc(100%/$grid*4);
+$grid-5: calc(100%/$grid*5);
+$grid-6: calc(100%/$grid*6);
+$grid-7: calc(100%/$grid*7);
+$grid-8: calc(100%/$grid*8);
+$grid-9: calc(100%/$grid*9);
+$grid-10: calc(100%/$grid*10);
+$grid-11: calc(100%/$grid*11);
+$grid-12: 100%;
+
+
+
+$var-slug: grid !default;
+
+@for $i from 1 through 12 {
+  $grid-type:calc(#{$grid}-#{$i});
+  $width: calc(calc(100%/#{$grid})*#{$i}); 
+  :global(.grid-#{$i}) {
+    width: $width;
+  }
+}

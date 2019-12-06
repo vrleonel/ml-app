@@ -1,7 +1,8 @@
+@import 'reset';
 @import 'variables';
 @import 'layout';
 
-body{
+:global(body){
   background-color: $gray-lighter;
   font-size: $font-base;
 }
@@ -21,6 +22,8 @@ body{
   height: 100%;
   width: 100%;
   display: flex;
+  align-items: center;
+  padding: 0 calc(100%/12);
   
   form {
     width: 100%;

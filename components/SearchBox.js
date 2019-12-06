@@ -1,13 +1,11 @@
 import Logo from './Logo';
+import FormInput from './FormInput';
 
 const SearchBox = () => (
   <div className="search-box">
     <div className="wrapper">
       <Logo />
-      <form>
-        <input type="text" value="Nunca deixe de buscar" />
-        <button type="submit" title="Buscar" alt="Buscar" />
-      </form>
+      <FormInput />
     </div>
   </div>
 );
